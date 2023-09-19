@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.calfield {
+    width: 230px;
+    background: #eeeeee;
+    padding: 40px 25px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 5px rgba(224, 224, 224, 0.8),
+        inset -5px -5px 5px rgba(252, 252, 252, 0.8),
+        -2px -2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.input_show {
+    width: 100%;
+    background: #eeeeee;
+    padding: 20px 8px 10px;
+    border: 0;
+    outline: 0;
+    text-align: right;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(224, 224, 224, 0.8),
+        -5px -5px 5px rgba(252, 252, 252, 0.8),
+        inset -2px -2px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+.btn_parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_row_oporator .btn {
+    color: rgb(0, 171, 171);
+
+}
+
+.btn_parent .btn:last-child {
+    color: rgb(0, 171, 171);
+}
+
+.btn {
+    border: 0;
+    width: 40px;
+    height: 40px;
+    background: #eeeeee;
+    color: rgb(66, 66, 66);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    /* transition: 5s;  not working*/
+    box-shadow: inset 5px 5px 5px rgba(224, 224, 224, 0.8),
+        inset -5px -5px 5px rgba(252, 252, 252, 0.8),
+        -2px -2px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 5px rgba(224, 224, 224, 0.8),
+        -5px -5px 5px rgba(252, 252, 252, 0.8),
+        inset -2px -2px 5px rgba(0, 0, 0, 0.15);
+
+}
